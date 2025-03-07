@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">College_Notes</string>
+    <string name="kunal_sahu">Kunal Sahu</string>
+    <string name="developers">Developers</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="dsa">DSA</string>
+    <string name="mc">MC</string>
+    <string name="java_programming">Java Programming</string>
+    <string name="mobile_computing">mobile_computing</string>
+    <string name="mc_">Mobile Computing</string>
+    <string name="menu">Menu</string>
+    <string name="cart">Cart</string>
+    <string name="fevorite">Fevorite</string>
+    <string name="history">History</string>
+    <string name="feedback">Feedback</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="favorite">Favorite</string>
+    <string name="smart_application">Smart Application</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="syllabus1">Syllabus</string>
+</resources>

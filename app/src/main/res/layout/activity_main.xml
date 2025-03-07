@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <!--    Smart Application Button-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:paddingRight="25dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="स्वयंहस्त"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <!--    Developer Section-->
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/heavyfont"
+                android:gravity="center_vertical"
+                android:text="@string/developers"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/logo" />
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/dhal_logo" />
+
+            <ImageView
+                android:layout_width="190dp"
+                android:layout_height="190dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/lucky_logo" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <!--    //buttons to click-->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="30dp"
+        android:numColumns="2"
+        android:rowCount="3">
+
+        <TextView
+            android:id="@+id/java"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/javaborder"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/heavyfont"
+            android:gravity="center"
+            android:text="@string/java"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/python"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:background="@drawable/pythonborder"
+            android:fontFamily="@font/heavyfont"
+            android:gravity="center"
+            android:text="@string/python"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/dsa"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/dsaborder"
+            android:fontFamily="@font/heavyfont"
+            android:gravity="center"
+            android:text="@string/dsa"
+            android:textSize="45sp" />
+
+        <TextView
+            android:id="@+id/mc"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:background="@drawable/mcborder"
+            android:fontFamily="@font/heavyfont"
+            android:gravity="center"
+            android:text="@string/mc"
+            android:textSize="45sp" />
+
+    </GridLayout>
+
+    <!--        syllabus button-->
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="640dp"
+        android:layout_height="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/syllabus"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/syllabus"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:fontFamily="@font/heavyfont"
+            android:textSize="40sp"
+            android:background="@drawable/syllabus_border"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
